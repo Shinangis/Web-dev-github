@@ -1,0 +1,80 @@
+body {
+  font-family: "Tahoma";
+}
+
+#home {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  /* background-color: burlywood; */
+}
+#content {
+  margin: 30px 100px;
+  width: 35%;
+  /* background-color: gold; */
+}
+#image {
+  width: 65%;
+  height: 300px;
+  margin: 0px 100px;
+
+}
+
+nav > ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 50px 100px;
+}
+
+.nav-link {
+  list-style: none;
+  background-color: #d8e4ef;
+  margin: 2px 5px;
+  padding: 8px 15px;
+  text-align: center;
+}
+
+.nav-link:hover {
+    background-color: #396ee1;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    margin: 35px 0px;
+}
+.btn {
+    background-color: #d8e4ef;
+    text-align: center;
+    margin: 20px 0px;
+    padding: 14px 25px;
+    width: 200px;
+    display: block;
+    border: none;
+    /* margin-right: 400px; */
+
+}
+
+.btn:hover {
+    background-color: #396ee1;
+    columns: white;
+}
+
+#image {
+    background-image: url("https://flipweb.org/wp-content/uploads/2019/11/Facebook-Pay.png");
+    width: 65%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 0px 100px;
+    /* margin-right: 400px; */
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+

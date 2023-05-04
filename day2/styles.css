@@ -1,0 +1,29 @@
+
+
+h1 {
+    font-size: 90px;
+    background-color: beige;
+}
+p {
+    margin: 80px 0px;
+    color: brown;
+    font-size : 50px;
+}
+
+.intro {
+    font-family: 'Tahoma';
+}
+
+.foods {
+    background-color: yellow;
+}
+
+.food {
+    background-color: blueviolet;
+}
+/* this will be igrnored */
+#food-heading {
+    
+    font-weight: 700;
+    background-color: cornflowerblue;
+}
